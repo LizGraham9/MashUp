@@ -1,1 +1,4 @@
-COOODDDEEE!!!
+Code that's cleaner, faster, stronger.
+
+
+//COOODDDEEE!!!
