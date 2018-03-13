@@ -1,9 +1,5 @@
 
-package mashup;
-
-import java.util.Arrays;
-import java.util.regex.Pattern;
-import mashup.game.Game;
+import game.Game;
 
 /**
  *

@@ -1,5 +1,5 @@
 
-package mashup.game;
+package game;
 
 import java.util.regex.Pattern;
 

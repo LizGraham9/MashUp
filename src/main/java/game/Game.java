@@ -1,14 +1,9 @@
+package game;
 
-package mashup.game;
+import database.QuestionDBLoader;
+import database.QuestionDBWriter;
 
-import mashup.database.QuestionDBWriter;
-import mashup.database.QuestionDBLoader;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  *
@@ -25,7 +20,7 @@ public class Game {
 //    Make unit tests at some point!
 //    consider implementing point system
 //    consider tracking time taken to answer and awarding points based on speed(also customizing win message if particularly fast)
-//    implement hints, SFW filter, ability for user to write contribute own riddles
+//    implement hints, SFW filter, ability for user to contribute user riddles
     
     private Queue<Question> buildQuestionQueue() {
         new QuestionDBWriter().writeToDatabase();

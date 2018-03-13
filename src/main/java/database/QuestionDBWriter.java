@@ -1,5 +1,5 @@
 
-package mashup.database;
+package database;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -44,7 +44,7 @@ public class QuestionDBWriter {
     }
 
     private void populateTable(Statement statement) throws FileNotFoundException, SQLException {
-        List<String> dataRows = parseFileIntoRows("src/mashup/mashDataSampleDB.txt");
+        List<String> dataRows = parseFileIntoRows("src/main/mashDataSampleDB.txt");
         String insertStatement = buildInsertStatement(dataRows);
         statement.executeUpdate(insertStatement);
     }

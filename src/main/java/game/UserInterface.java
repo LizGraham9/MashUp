@@ -1,5 +1,5 @@
 
-package mashup.game;
+package game;
 
 /**
  *

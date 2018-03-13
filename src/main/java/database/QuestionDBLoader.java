@@ -1,12 +1,12 @@
 
-package mashup.database;
+package database;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
-import mashup.game.Question;
+import game.Question;
 
 /**
  *
